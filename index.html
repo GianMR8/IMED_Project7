@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contact</title>
+<link href="main.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.14.0/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#accordion" ).accordion();
+  } );
+  </script>
+  <style>
+  .ui-menu { width: 150px; }
+  </style>   
+</head>
+<body>
+<h2>Contact</h2>
+<h3><a href="https://gianmr8.github.io/socialevents/">Home</a></h3>
+<h3><a href="https://gianmr8.github.io/IMED_Project5/">About the Social Events</a></h3>
+<h3><a href="https://gianmr8.github.io/IMED_Project6/">Sign Up!</a></h3>
+<ul id="menu">
+  <li class="ul-state-disabled"><div>Instagram</div></li>
+  <li><div>Email</div></li>
+  </li>
+</ul>
+<div id="accordion">
+  <h3>Instagram</h3>
+  <div>
+    <p>
+    My Instagram:
+    </p>
+    <ul>
+      <li>@gian_martinez3</li>
+    </ul>
+  </div>
+  <h3>Email</h3>
+  <div>
+    <p>
+    My email:
+    </p>
+    <ul>
+      <li>gian_martinez3@icloud.com</li>
+    </ul>
+  </div>
+</div>
+<nav><h1>Can't wait to meet you!</h1></nav>
+<body>
+
+
+<div class="container">
+    <div class="box" id="box1">Social Events</div>
+    <div class="box" id="box2">are for people on</div>
+    <div class="box" id="box3">the spectrum</div>
+    <div class="box" id="box4">Welcome in!</div>
+</div> 
+</body>
+<footer>Copyright Gian Martinez 2024</footer>
+<style media="screen">
+
+    *{
+    box-sizing: border-box;}
+    
+    .container{
+        width: 1020px;
+        margin:0 auto;
+    }
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    background-color: #0004ad;
+}
+
+.flex-container > div {
+    background-color: red;
+    color: white;
+    margin: 10px;
+    font-size: 18px;
+    padding: 0 10px 0 10px;
+}
+header{
+    width: 100%;
+    height: 30px;
+    background-color: yellow;
+}
+footer{
+    width: 100%;
+    height: 20px;
+    background-color: green;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    margin: 10px 0 10px 0;
+    padding-top: 10px;
+    background-color: skyblue;
+    font-size: 18px;
+}
+    @media (max-width: 1019px){
+        .container{width:90%;}
+
+        .makeMeStack{
+            flex:100%;
+        }
+    }
+
+</style>
+</html>
