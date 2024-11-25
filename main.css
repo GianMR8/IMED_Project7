@@ -27,18 +27,7 @@
     text-align: center;
     border-radius: 15px;
 }
-#box1{
-    background-color: red;
-}
-#box2{
-    background-color: green;
-}
-#box3{
-    background-color: yellow;
-}
-#box4{
-    background-color: blue;
-}
+
 div {
     background-color: red;
     color: black;
@@ -87,3 +76,4 @@ h2{
     color: navy;
     font-size: 2em;
 }
+
